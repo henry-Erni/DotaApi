@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "7SXqw29uYIV/nhOoWDt0N5hINQ2bxqcmwZJqDJ3zAkQ=",
+  "Source": "DotaApi",
+  "BasePath": "_content/DotaApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
