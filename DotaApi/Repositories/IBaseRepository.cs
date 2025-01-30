@@ -1,4 +1,5 @@
 ﻿using System.Linq.Expressions;
+using DotaApi.Domain.Entities;
 
 namespace DotaApi.Repositories
 {
@@ -11,7 +12,5 @@ namespace DotaApi.Repositories
         Task<T> Add(T entity);
         Task<T> Update(T entity);
         Task<T> Delete(Guid id);
-
-
     }
 }

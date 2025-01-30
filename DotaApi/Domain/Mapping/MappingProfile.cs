@@ -8,11 +8,11 @@ namespace DotaApi.Domain.Mapping
     {
         public MappingProfile() 
         {
-            CreateMap<Hero, GetHeroDTO>().ForMember(dest => dest.Items, opt => opt.MapFrom(src => src.Items));
+            CreateMap<Hero, GetHeroDTO>();
             CreateMap<CreateHero, Hero>();
             CreateMap<UpdateHero, Hero>();
             CreateMap<DeleteHero, Hero>();
-            CreateMap<GetHero, Hero>();
+            //CreateMap<GetHero, Hero>();
 
 
 
@@ -20,7 +20,7 @@ namespace DotaApi.Domain.Mapping
             CreateMap<CreateItem, Item>();
             CreateMap<UpdateItem, Item>();
             CreateMap<DeleteItem, Item>();
-            CreateMap<GetItem, Item>();
+            //CreateMap<GetItem, Item>();
         }
     }
 }

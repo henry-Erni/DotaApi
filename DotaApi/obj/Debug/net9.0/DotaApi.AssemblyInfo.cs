@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotaApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+305197ed4cd525ca0f423b26768ffeeff51e49e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotaApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotaApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

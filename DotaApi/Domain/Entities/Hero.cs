@@ -6,6 +6,6 @@
         public required string Name { get; set; }
         public required string Role { get; set; }
 
-        public ICollection<Item>? Items { get; set; }
+        //public required ICollection<Item> Items { get; set; }
     }
 }

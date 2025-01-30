@@ -10,10 +10,9 @@ namespace DotaApi.Domain.Contracts
 
     public class GetHeroDTO
     {
-        public Guid Id { get; set; }
+        //public Guid Id { get; set; }
         public required string Name { get; set; }
         public required string Role { get; set; }
 
-        public ICollection<GetItemDTO>? Items { get; set; }
     }
 }

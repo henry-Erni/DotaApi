@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Henry Arpon\\OneDrive\\Desktop\\DotaApi\\DotaApi\\DotaApi\\DotaApi.csproj": {}
+    "C:\\Users\\extarhe\\source\\repos\\DotaApi\\DotaApi\\DotaApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henry Arpon\\OneDrive\\Desktop\\DotaApi\\DotaApi\\DotaApi\\DotaApi.csproj": {
+    "C:\\Users\\extarhe\\source\\repos\\DotaApi\\DotaApi\\DotaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henry Arpon\\OneDrive\\Desktop\\DotaApi\\DotaApi\\DotaApi\\DotaApi.csproj",
+        "projectUniqueName": "C:\\Users\\extarhe\\source\\repos\\DotaApi\\DotaApi\\DotaApi.csproj",
         "projectName": "DotaApi",
-        "projectPath": "C:\\Users\\Henry Arpon\\OneDrive\\Desktop\\DotaApi\\DotaApi\\DotaApi\\DotaApi.csproj",
-        "packagesPath": "C:\\Users\\Henry Arpon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henry Arpon\\OneDrive\\Desktop\\DotaApi\\DotaApi\\DotaApi\\obj\\",
+        "projectPath": "C:\\Users\\extarhe\\source\\repos\\DotaApi\\DotaApi\\DotaApi.csproj",
+        "packagesPath": "C:\\Users\\extarhe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\extarhe\\source\\repos\\DotaApi\\DotaApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Henry Arpon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\extarhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,6 +58,12 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.11.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
